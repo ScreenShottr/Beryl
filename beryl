@@ -1,0 +1,18 @@
+#!/usr/bin/env php
+<?php
+/**
+ * Beryl - Command Line Interface for ScreenShottr
+ * 
+ * @version 0.1.0
+ * @copyright 2017 ScreenShottr. All rights reserved.
+ * @author Matt Kent
+ */
+require_once __DIR__ . '/vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+
+$beryl = new Application();
+
+$beryl->add(new ShowImagesCommand());
+
+$beryl->run();
