@@ -1,3 +1,5 @@
+<p align="center"><img src="https://i.gyazo.com/2d8237cafb8cc5b53f61de27bd88a601.png"></p>
+
 ## Beryl ##
 
 **Beryl is a free open source CLI for the ScreenShottr service. Written in pure PHP with the [Symfony Console](https://symfony.com/doc/current/components/console.html) component.**
