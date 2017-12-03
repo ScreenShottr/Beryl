@@ -6,3 +6,5 @@ php:
   - '7.2'
   - hhvm # on Trusty only
   - nightly
+env:
+  - PACKAGE_VERSION="0.1.*"
