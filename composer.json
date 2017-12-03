@@ -1,8 +1,13 @@
 {
+    "name": "Beryl",
+    "description": "Open source PHP CLI for ScreenShottr",
     "require": {
         "symfony/console": "^3.3"
     },
     "autoload": {
-        "psr-0": { "": ["commands/", "lib/"] }
+        "psr-0": { "": ["commands/", "lib/", "Test/"] }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.2.*"
     }
 }

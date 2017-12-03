@@ -1,0 +1,7 @@
+<phpunit colors="true">
+    <testsuites>
+        <testsuite name="Beryl Test Suite">
+            <directory>./Test/Cases/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
