@@ -44,11 +44,11 @@ class ComposerStaticInit378300e2fcb1f7879e0bdaea004b0da4
 
     public static $fallbackDirsPsr0 = array (
         0 => __DIR__ . '/../..' . '/commands',
-        1 => __DIR__ . '/../..' . '/abstracts',
+        1 => __DIR__ . '/../..' . '/lib',
     );
 
     public static $classMap = array (
-        'BerylAbstract' => __DIR__ . '/../..' . '/abstracts/BerylAbstract.php',
+        'BerylAbstract' => __DIR__ . '/../..' . '/lib/BerylAbstract.php',
         'GreetCommand' => __DIR__ . '/../..' . '/commands/GreetCommand.php',
         'Psr\\Log\\AbstractLogger' => __DIR__ . '/..' . '/psr/log/Psr/Log/AbstractLogger.php',
         'Psr\\Log\\InvalidArgumentException' => __DIR__ . '/..' . '/psr/log/Psr/Log/InvalidArgumentException.php',
@@ -154,6 +154,7 @@ class ComposerStaticInit378300e2fcb1f7879e0bdaea004b0da4
         'Symfony\\Component\\Debug\\FatalErrorHandler\\UndefinedFunctionFatalErrorHandler' => __DIR__ . '/..' . '/symfony/debug/FatalErrorHandler/UndefinedFunctionFatalErrorHandler.php',
         'Symfony\\Component\\Debug\\FatalErrorHandler\\UndefinedMethodFatalErrorHandler' => __DIR__ . '/..' . '/symfony/debug/FatalErrorHandler/UndefinedMethodFatalErrorHandler.php',
         'Symfony\\Polyfill\\Mbstring\\Mbstring' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/Mbstring.php',
+        'UploadImagesCommand' => __DIR__ . '/../..' . '/commands/UploadImagesCommand.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

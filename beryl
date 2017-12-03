@@ -13,6 +13,8 @@ use Symfony\Component\Console\Application;
 
 $beryl = new Application();
 
+# add our commands
+$beryl->add(new GreetCommand());
 $beryl->add(new ShowImagesCommand());
 
 $beryl->run();

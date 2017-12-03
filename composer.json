@@ -3,6 +3,6 @@
         "symfony/console": "^3.3"
     },
     "autoload": {
-        "psr-0": { "": ["commands/", "abstracts/"] }
+        "psr-0": { "": ["commands/", "lib/"] }
     }
 }

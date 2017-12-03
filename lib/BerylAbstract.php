@@ -11,19 +11,22 @@ abstract class BerylAbstract extends Command {
     protected $cmdArgs;
     protected $cmdOpts;
 
-    public function __construct() {
+    public function __construct($cmdName, $cmdDesc, $cmdArgs, $cmdOpts, $cmdHelp) {
+        $this->setVars($cmdName, $cmdDesc, $cmdArgs, $cmdOpts, $cmdHelp);
         parent::__construct();
     }
 
-    protected function setVars($cmdName, $cmdDesc, $cmdArgs, $cmdOpts) {
+    protected function setVars($cmdName, $cmdDesc, $cmdArgs, $cmdOpts, $cmdHelp) {
         $this->cmdName = $cmdName;
         $this->cmdDesc = $cmdDesc;
         $this->cmdArgs = $cmdArgs;
         $this->cmdOpts = $cmdOpts;
+        $this->cmdHelp = $cmdHelp;
     }
 
     protected function configure() {
-        $this->setName('images:show')->setDescription($this->cmdDesc);
+        $this->setName($this->cmdName)->setDescription($this->cmdDesc)->setHelp($this->cmdHelp);
+
 
         if (is_array($this->cmdArgs)) {
             foreach ($this->cmdArgs as $args) {
