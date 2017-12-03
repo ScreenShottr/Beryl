@@ -1,5 +1,9 @@
 <p align="center"><img src="https://i.gyazo.com/2d8237cafb8cc5b53f61de27bd88a601.png"></p>
 
+<p align="center">
+ <a href="https://travis-ci.org/ScreenShottr/Beryl" target="_blank"><img src="https://travis-ci.org/ScreenShottr/Beryl.svg?branch=master" alt="Build Status"></a>
+</p>
+
 ![screenshot](https://i.gyazo.com/2c78e30922972b46501d7ead82d0399d.png)
 
 ## About Beryl ##
