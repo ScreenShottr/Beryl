@@ -1,6 +1,6 @@
 <p align="center"><img src="https://i.gyazo.com/2d8237cafb8cc5b53f61de27bd88a601.png"></p>
 
-![screenshot](https://i.gyazo.com/ab52688e29711d008472213ebda7af99.png)
+![screenshot](https://i.gyazo.com/2c78e30922972b46501d7ead82d0399d.png)
 
 ## About Beryl ##
 
